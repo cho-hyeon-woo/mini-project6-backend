@@ -3,7 +3,7 @@ server:
 
 app:
   upload:
-    cover-dir: uploads/covers
+    cover-dir: /home/ec2-user/app/uploads/covers
 
 spring:
   application:
