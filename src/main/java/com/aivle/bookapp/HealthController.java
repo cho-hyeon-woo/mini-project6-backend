@@ -1,4 +1,4 @@
-package com.aivle.bookapp.controller;
+package com.aivle.bookapp;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
