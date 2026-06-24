@@ -21,7 +21,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                     "http://localhost:5173", 
                     "http://127.0.0.1:5173",
-                    "http://user94-angular-website.s3-website-ap-southeast-1.amazonaws.com"
+                    "http://user94-angular-website.s3-website-ap-southeast-1.amazonaws.com",
                     "http://user94-ALB-1616828866.ap-southeast-1.elb.amazonaws.com"
                 )
                 .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
